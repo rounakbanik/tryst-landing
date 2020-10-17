@@ -118,7 +118,7 @@ nav {
 	padding: 30px;
 }
 
-.etna-content {
+.etna-content, .limits-content {
 	margin: 50px;
 	margin-left: 80px;
 	margin-right: 80px;
@@ -157,7 +157,7 @@ nav {
 	border-bottom: 1px solid #f3f3f3;
 }
 
-/* Limits Frame */
+/* Expectations Frame */
 .exp-frame {
 	min-height: 100vh;
 	background-color: #f3f3f3;
@@ -169,7 +169,6 @@ nav {
 	margin-left: 80px;
 	margin-right: 80px;
 	font-size: 20px;
-	padding: 20px;
 }
 
 .exp-title {
@@ -210,15 +209,51 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;
-	padding: 30px;
-	min-height: 50px;
+	justify-content: center;
 }
 
 .image-container img {
 	display: inline-block;
 	flex-grow: 1;
-	margin: 10px;
+	max-width: 390px;
+}
+
+/* Limits Frame */
+.limits-frame {
+	min-height: 70vh;
+	background-color: #E4E4E4;
+	color: #262626;
+}
+
+.limits-text {
+	flex-grow: 7;
+}
+
+.limits-text h2 {
+	font-size: 55px;
 	padding: 10px;
-	max-width: 350px;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	padding-top: 0px;
+}
+
+.limits-text p {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.limits-image {
+	flex-grow: 5;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+.limits-image img {
+	display: inline-block;
+	max-height: 400px;
+	border-radius: 10px;
 }
