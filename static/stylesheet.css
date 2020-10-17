@@ -26,12 +26,31 @@ body {
 }
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 h1, h2, h3, h4 {
 	font-family: "Sf Pro Bold";
 }
+
+.sized-box {
+	height: 50px;
+}
+
+.section-title {
+	font-size: 55px;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.wrap-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+
 
 /* Main Frame */
 
@@ -88,4 +107,55 @@ nav {
 	text-align: center;
 	font-size: 24px;
 	margin-bottom: 35px;
+}
+
+/* Etna Frame */
+
+.etna-frame {
+	min-height: 100vh;
+	background-color: #262626;
+	color: #f3f3f3;
+	padding: 30px;
+}
+
+.etna-content {
+	margin: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.etna-text {
+	flex-grow: 6;
+	margin: 10px;
+	padding: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.etna-image {
+	flex-grow: 6;
+	text-align: center;
+	margin: 10px;
+	padding: 10px
+}
+
+.etna-image img {
+	display: inline-block;
+	height: 400px;
+}
+
+.etna-content {
+	font-size: 20px;
+	padding: 20px;
+}
+
+.etna-content p {
+	margin-right: 35px;
+}
+
+.access-link-inverse a {
+	color: #f3f3f3;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #f3f3f3;
 }
