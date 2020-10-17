@@ -1,0 +1,91 @@
+/* Define fonts */
+
+@font-face {
+  font-family: "SF Pro Bold";
+  src: url("../fonts/SFProBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Regular";
+  src: url("../fonts/SFProRegular.ttf") format("truetype");
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-device-width: 480px) {
+}
+
+/* Web Styles */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #262626;
+	overflow-x: hidden;
+	font-family: "SF Pro Regular";
+}
+
+section {
+	height: 100vh;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Sf Pro Bold";
+}
+
+/* Main Frame */
+
+.main-frame {
+	background: url(../images/dolls.png) no-repeat center center;
+	background-size: cover;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 25px;
+	align-items: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.logo {
+	height: 60px;
+	width: 100px;
+	background: url(../images/logo.png) no-repeat center center;
+	background-size: contain;
+
+}
+
+.access-btn {
+	padding: 12px;
+	background-color: #262626;
+	border-radius: 30px;
+	padding-right: 22px;
+	padding-left: 22px;
+}
+
+.access-btn a {
+	text-decoration: none;
+	color: #f3f3f3;
+
+}
+
+.title-text {
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 5px;
+}
+
+.subtitle-text {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 35px;
+}
