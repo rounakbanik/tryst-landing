@@ -122,6 +122,12 @@ nav {
 	margin: 50px;
 	margin-left: 80px;
 	margin-right: 80px;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.etna-content p {
+	margin-right: 35px;
 }
 
 .etna-text {
@@ -141,16 +147,7 @@ nav {
 
 .etna-image img {
 	display: inline-block;
-	height: 400px;
-}
-
-.etna-content {
-	font-size: 20px;
-	padding: 20px;
-}
-
-.etna-content p {
-	margin-right: 35px;
+	max-height: 400px;
 }
 
 .access-link-inverse a {
@@ -158,4 +155,70 @@ nav {
 	text-decoration: none;
 	padding-bottom: 3px;
 	border-bottom: 1px solid #f3f3f3;
+}
+
+/* Limits Frame */
+.exp-frame {
+	min-height: 100vh;
+	background-color: #f3f3f3;
+	color: #262626;
+}
+
+.exp-content {
+	margin: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.exp-title {
+	flex-grow: 4;
+}
+
+.exp-title p {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.exp-title h2 {
+	font-size: 55px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.exp-text {
+	flex-grow: 7;
+	margin: 10px;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.access-link a {
+	color: #262626;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #262626;
+}
+
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 30px;
+	min-height: 50px;
+}
+
+.image-container img {
+	display: inline-block;
+	flex-grow: 1;
+	margin: 10px;
+	padding: 10px;
+	max-width: 350px;
 }
