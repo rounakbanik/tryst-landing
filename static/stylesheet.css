@@ -98,6 +98,10 @@ nav {
 
 }
 
+/* Anchors Frame */
+
+
+
 /* Etna Frame */
 
 .etna-frame {
@@ -135,15 +139,15 @@ nav {
 	color: #262626;
 }
 
-.exp-title-2, .exp-text-2, .limits-title-2 {
+.exp-title-2, .exp-text-2, .limits-title-2, .anchor-title {
 	padding: 30px;
 }
 
-.exp-title-2 h2, .limits-title-2 h2 {
+.exp-title-2 h2, .limits-title-2 h2, .anchor-title h2 {
 	font-size: 45px;
 }
 
-.exp-title-2 p, .exp-text-2 p, .limits-title-2 p, .limits-image-2 {
+.exp-title-2 p, .exp-text-2 p, .limits-title-2 p, .limits-image-2, .anchor-title p {
 	padding: 10px;
 	margin: 10px;
 }
@@ -155,7 +159,7 @@ nav {
 	padding-right: 0px;
 }
 
-.exp-images-2, .limits-image-2 {
+.exp-images-2, .limits-image-2, .anchors-image {
 	padding: 30px;
 }
 
@@ -166,6 +170,11 @@ nav {
 
 .exp-images-2 img {
 	max-width: 380px;
+}
+
+.anchors-image img {
+	border-radius: 10px;
+	max-width: 450px;
 }
 
 .access-link a {
