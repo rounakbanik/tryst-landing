@@ -159,7 +159,7 @@ nav {
 	padding-right: 0px;
 }
 
-.exp-images-2, .limits-image-2, .anchors-image {
+.exp-images-2, .limits-image-2, .anchors-image, .anchors-image-2 {
 	padding: 30px;
 }
 
@@ -170,11 +170,6 @@ nav {
 
 .exp-images-2 img {
 	max-width: 380px;
-}
-
-.anchors-image img {
-	border-radius: 10px;
-	max-width: 450px;
 }
 
 .access-link a {
@@ -190,4 +185,38 @@ nav {
 	min-height: 70vh;
 	background-color: #E4E4E4;
 	color: #262626;
+}
+
+/* Anchors Frame */
+
+.anchor-frame-2 {
+	min-height: 60vh;
+	background-color: #E4E4E4;
+	color: #262626;
+}
+
+#slideshow { 
+    margin: 30px auto; 
+    position: relative; 
+    width: 500px; 
+    height: 500px;  
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.anchors-image-2 img {
+	height: 300px;
+	width: 400px;
+	border-radius: 10px;
+}
+
+.anchors-image img {
+	border-radius: 10px;
+	max-width: 450px;
 }
