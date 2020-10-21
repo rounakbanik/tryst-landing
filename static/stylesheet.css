@@ -98,8 +98,6 @@ nav {
 
 }
 
-/* Anchors Frame */
-
 
 
 /* Etna Frame */
@@ -219,4 +217,27 @@ nav {
 .anchors-image img {
 	border-radius: 10px;
 	max-width: 450px;
+}
+
+/* Experiences Frame */
+.ex-frame {
+	min-height: 100vh;
+	background-color: #262626;
+	color: #f3f3f3;
+}
+
+.ex-carousel {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+
+.ex-image img {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.ex-carousel p {
+	font-size: 15px;
+	margin-top: 15px;
 }

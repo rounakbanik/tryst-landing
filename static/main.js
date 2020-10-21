@@ -9,6 +9,14 @@ $(document).ready(function() {
 	    .fadeIn(1000)
 	    .end()
 	    .appendTo('#slideshow');
-	},  3000);
+	},  4000);
+
+	$('.ex-carousel').slick({
+		slidesToShow: 1,
+	    slidesToScroll: 1,
+	    autoplay: true,
+	    autoplaySpeed: 3000,
+	    arrows: true,
+	});
 
 });
