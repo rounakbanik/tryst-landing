@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-	$("#slideshow > div:gt(0)").hide();
+	$(function() {
+  		AOS.init();
+	});
 
 	setInterval(function() { 
 	  $('#slideshow > div:first')
