@@ -227,10 +227,9 @@ nav {
 }
 
 .ex-carousel {
-	max-width: 450px;
+	max-width: 350px;
 	margin: 0 auto;
 }
-
 
 .ex-image img {
 	max-width: 300px;
@@ -240,4 +239,18 @@ nav {
 .ex-carousel p {
 	font-size: 15px;
 	margin-top: 15px;
+}
+
+/* Coming Soon Frame */
+.cs-frame {
+	min-height: 50vh;
+}
+
+.cs-frame h2 {
+	font-size: 45px;
+}
+
+.cs-frame img {
+	max-width: 320px;
+	margin-top: 30px;
 }
