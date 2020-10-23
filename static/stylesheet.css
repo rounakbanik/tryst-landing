@@ -1,26 +1,18 @@
-/* Define fonts */
+/* Desktop Styles */
+@media only screen and (min-device-width: 801px) {
 
-@font-face {
-  font-family: "SF Pro Bold";
-  src: url("../fonts/SFProBold.ttf") format("truetype");
-}
+	.mobile {
+		display: none;
+	}
 
-@font-face {
-  font-family: "SF Pro Regular";
-  src: url("../fonts/SFProRegular.ttf") format("truetype");
-}
-
-/* Mobile Styles */
-
-@media only screen and (max-device-width: 480px) {
-}
-
-/* Tablet Styles */
-@media only screen and (min-device-width: 480px) and (max-device-width: 801px) {
+	.tablet {
+		display: none;
+	}
 }
 
 
 /* Web Styles */
+
 
 body {
 	margin: 0px;
@@ -283,4 +275,249 @@ footer {
 
 footer p {
 	font-size: 18px;
+}
+
+/* Tablet Styles */
+@media only screen and (min-device-width: 480px) and (max-device-width: 801px) {
+
+	.sized-box {
+		height: 90px;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	p, a {
+		font-size: 18px;
+	}
+
+	.title-text-2 h1 {
+		font-size: 40px;
+		padding: 20px;
+	}
+
+	.title-text-2 p {
+		padding: 10px;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.exp-title-2 h2, .limits-title-2 h2, .anchor-title h2, .cs-frame h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.exp-title-2 p, .exp-text-2 p, .limits-title-2 p, .limits-image-2, .anchor-title p {
+		text-align: center;
+	}
+
+	.ex-carousel {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.ex-image img {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.ex-carousel p {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.exp-text-2 p {
+		padding: 25px;
+	}
+
+	.mkt-images img {
+		max-width: 80%;
+	}
+
+	.mkt-images .col-md-3 {
+		text-align: center;
+	}
+
+	.mkt-images p {
+		font-size: 18px;
+	}
+
+	.anchors-image, .exp-images-2 {
+		text-align: center;
+	}
+
+	.anchors-image img {
+		max-width: 80%;
+	}
+
+	.anchors-image-2 img, .limits-image-2 img {
+		max-width: 80%;
+	}
+
+	.anchors-image-2 img {
+		height: 270px;
+		width: 360px;
+		border-radius: 10px;
+	}
+
+	#slideshow { 
+	    margin: 0px auto; 
+	    position: relative; 
+	    width: 400px; 
+	    height: 300px;  
+	}
+
+	.etna-frame h2, .etna-text p, .etna-image {
+		text-align: center;
+	}
+
+	.etna-image img {
+		max-width: 90%;
+	}
+
+	.exp-images-2 img {
+		max-width: 60%;
+	}
+
+	.cs-frame img {
+		max-width: 50%;
+	}
+
+	.cs-frame .col-md-5, footer p {
+		text-align: center !important;
+	}
+
+	footer p {
+		font-size: 18px;
+	}
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-device-width: 480px) {
+
+	.sized-box {
+		height: 75px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.tablet {
+		display: none;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	p, a {
+		font-size: 14px;
+	}
+
+	.title-text-2 h1 {
+		font-size: 32px;
+	}
+
+	.title-text-2 p {
+		padding: 25px;
+		text-align: center;
+		font-size: 16px;
+	}
+
+	.exp-title-2 h2, .limits-title-2 h2, .anchor-title h2, .cs-frame h2 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.exp-title-2 p, .exp-text-2 p, .limits-title-2 p, .limits-image-2, .anchor-title p {
+		text-align: center;
+	}
+
+	.ex-carousel {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.ex-image img {
+		max-width: 250px;
+		margin: 0 auto;
+	}
+
+	.ex-carousel p {
+		font-size: 15px;
+		margin-top: 15px;
+	}
+
+	.exp-text-2 p {
+		padding: 25px;
+	}
+
+	.mkt-images img {
+		max-width: 80%;
+	}
+
+	.mkt-images .col-md-3 {
+		text-align: center;
+	}
+
+	.mkt-images p {
+		font-size: 14px;
+	}
+
+	.anchors-image, .exp-images-2 {
+		text-align: center;
+	}
+
+	.anchors-image img {
+		max-width: 80%;
+	}
+
+	.anchors-image-2 img, .exp-images-2 img, .limits-image-2 img {
+		max-width: 80%;
+	}
+
+	.anchors-image-2 img {
+		height: 180px;
+		width: 240px;
+		border-radius: 10px;
+	}
+
+	#slideshow { 
+	    margin: 0px auto; 
+	    position: relative; 
+	    width: 300px; 
+	    height: 200px;  
+	}
+
+	.etna-frame h2, .etna-text p, .etna-image {
+		text-align: center;
+	}
+
+	.etna-image img {
+		max-width: 90%;
+	}
+
+	.cs-frame img {
+		max-width: 70%;
+	}
+
+	.cs-frame .col-md-5, footer p {
+		text-align: center !important;
+	}
+
+	footer p {
+		font-size: 14px;
+	}
+
 }
