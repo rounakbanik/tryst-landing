@@ -15,6 +15,11 @@
 @media only screen and (max-device-width: 480px) {
 }
 
+/* Tablet Styles */
+@media only screen and (min-device-width: 480px) and (max-device-width: 801px) {
+}
+
+
 /* Web Styles */
 
 body {
@@ -24,10 +29,6 @@ body {
 	background-color: #f3f3f3;
 	overflow-x: hidden;
 	font-family: "SF Pro Regular";
-}
-
-section {
-	min-height: 100vh;
 }
 
 h1, h2, h3, h4 {
@@ -52,16 +53,17 @@ img {
 	height: 70px;
 }
 
+/* Header */
+nav {
+	background-color: #262626;
+}
+
 
 /* Main Frame */
 
 .main-frame {
-	background: url(../images/dolls.png) no-repeat center center;
+	background: url(../images/bg.png) no-repeat center center;
 	background-size: cover;
-}
-
-nav {
-	padding: 25px;
 }
 
 .title-text-2 h1 {
@@ -72,14 +74,14 @@ nav {
 .title-text-2 p {
 	text-align: center;
 	font-size: 24px;
-	margin-bottom: 35px;
 }
 
 .logo {
-	height: 60px;
-	width: 100px;
+	height: 48px;
+	width: 80px;
 	background: url(../images/logo.png) no-repeat center center;
 	background-size: contain;
+	margin: 5px;
 
 }
 
@@ -98,12 +100,15 @@ nav {
 
 }
 
+.dolls img {
+	width: 100%;
+}
+
 
 
 /* Etna Frame */
 
 .etna-frame {
-	min-height: 100vh;
 	background-color: #262626;
 	color: #f3f3f3;
 	padding: 30px;
@@ -132,7 +137,6 @@ nav {
 
 /* Expectations Frame */
 .exp-frame {
-	min-height: 100vh;
 	background-color: #f3f3f3;
 	color: #262626;
 }
@@ -180,7 +184,6 @@ nav {
 /* Limits Frame */
 
 .limits-frame {
-	min-height: 70vh;
 	background-color: #E4E4E4;
 	color: #262626;
 }
@@ -188,7 +191,6 @@ nav {
 /* Anchors Frame */
 
 .anchor-frame-2 {
-	min-height: 60vh;
 	background-color: #E4E4E4;
 	color: #262626;
 }
@@ -221,7 +223,6 @@ nav {
 
 /* Experiences Frame */
 .ex-frame {
-	min-height: 100vh;
 	background-color: #262626;
 	color: #f3f3f3;
 }
@@ -242,9 +243,6 @@ nav {
 }
 
 /* Coming Soon Frame */
-.cs-frame {
-	min-height: 50vh;
-}
 
 .cs-frame h2 {
 	font-size: 45px;
