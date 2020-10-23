@@ -1,0 +1,11 @@
+/* Define fonts */
+
+@font-face {
+  font-family: "SF Pro Bold";
+  src: url("../fonts/SFProBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Regular";
+  src: url("../fonts/SFProRegular.ttf") format("truetype");
+}
